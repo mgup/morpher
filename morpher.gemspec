@@ -14,9 +14,7 @@ Gem::Specification.new do |s|
   s.description = 'Склонение существительных с помощью веб-сервиса http://morpher.ru'
 
   s.files = Dir['{app,config,db,lib}/**/*', 'MIT-LICENSE', 'Rakefile', 'README.rdoc']
+  #s.require_paths = %w(lib)
 
-  s.add_dependency 'rails', '~> 4.0.0.rc1'
   s.add_dependency 'httparty'
-
-  s.add_development_dependency 'sqlite3'
 end
