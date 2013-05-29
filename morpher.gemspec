@@ -17,4 +17,7 @@ Gem::Specification.new do |s|
   #s.require_paths = %w(lib)
 
   s.add_dependency 'httparty'
+
+  s.add_development_dependency 'rake'
+  s.add_development_dependency 'rspec'
 end
